@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a77413-425e-44fe-84f5-02e727db9a12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Calculadora3/src/main/java/calculos/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora3/src/main/java/calculos/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Calculadora.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora3/src/test/java/calculosTest/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora3/src/test/java/calculosTest/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora3/target/test-classes/calculosTest/CalculadoraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora3/target/test-classes/calculosTest/CalculadoraTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

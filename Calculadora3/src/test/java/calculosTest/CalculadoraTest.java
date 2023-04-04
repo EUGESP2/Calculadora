@@ -1,19 +1,29 @@
 package calculosTest;
 
 import calculos.Calculadora;
+//import org.junit.jupiter.api.AfterAll;
+//import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class CalculadoraTest {
     @Test
-            public void sumandoDosNumeros() {
+    @
+
+            public void haciendoCalculos() {
 
 
         Calculadora probando = new Calculadora();
-        Assertions.assertEquals(26.1,probando.sumar(24.0,2.1));
-        Assertions.assertEquals(10,probando.restar(20,10));
-        Assertions.assertEquals(20,probando.dividir(20,1));
-        Assertions.assertEquals(50,probando.multiplicar(2,25));
+
+
+        Assertions.assertEquals(80,probando.dividir( probando.sumar(150,180),3));
+
+
+        Assertions.assertEquals(140,probando.multiplicar(80,3));
+        Assertions.assertEquals(650,probando.multiplicar(probando.restar(90,50),15));
+
+        Assertions.assertEquals(2700,probando.multiplicar(25,probando.sumar(70,40)));
+
     }
 
 }
