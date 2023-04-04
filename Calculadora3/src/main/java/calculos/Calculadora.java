@@ -4,6 +4,8 @@ public class Calculadora {
 private double numero1;
 private double numero2;
 
+private double resultado;
+
     public Calculadora() {
 
     }
@@ -25,20 +27,26 @@ private double numero2;
 //    }
 
     public double sumar(double unNumero, double otroNumero){
-        double resultado;
+
         resultado = unNumero + otroNumero;
         return resultado;
     }
 
-//    public double restar(double unNumero, double otroNumero){
-//        return unNumero - otroNumero;
-//
-//
-//        public double multiplicar(double unNumero, double otroNumero){
-//            return unNumero * otroNumero;
-//        }
-//        public double dividir(double unNumero, double otroNumero){
-//            return unNumero / otroNumero;
-//        }
+    public double restar(double unNumero, double otroNumero) {
+
+        resultado = unNumero - otroNumero;
+        return resultado;
+    }
+
+
+        public double multiplicar(double unNumero, double otroNumero){
+
+            resultado = unNumero * otroNumero;
+            return resultado;
+        }
+        public double dividir(double unNumero, double otroNumero){
+            resultado = unNumero / otroNumero;
+            return resultado;
+        }
     }
 
